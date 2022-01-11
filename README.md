@@ -26,3 +26,5 @@ build project -> Ctrl+shift+b
 # SDK version:
 
 10.0.19041.0
+
+SDKManifest file: C:\Program Files (x86)\Windows Kits\10
