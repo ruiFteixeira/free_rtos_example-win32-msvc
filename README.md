@@ -1,6 +1,6 @@
 # Base example for SIAA classes:
-1º build project;
-2º compile with cls.exe;
+1º build project
+2º compile with cls.exe
 
 
 Utils:
