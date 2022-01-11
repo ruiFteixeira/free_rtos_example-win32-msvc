@@ -1,10 +1,10 @@
 # Base example for SIAA classes:
 1º build project
 
-2º compile with cls.exe;
+2º compile with cls.exe
 
 
-Utils:
+# Utils:
 
 Build Tools path:
 C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools>
