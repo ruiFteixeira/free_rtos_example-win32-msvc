@@ -4,8 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${FREERTOS_PATH}/FreeRTOS/Source/include",
-                "${FREERTOS_PATH}/FreeRTOS/Source/portable/MSVC-MingW"
+                "${FREERTOS}/FreeRTOS/Source/include",
+                "${FREERTOS}/FreeRTOS/Source/portable/MSVC-MingW"
             ],
             "defines": [
                 "_DEBUG",
