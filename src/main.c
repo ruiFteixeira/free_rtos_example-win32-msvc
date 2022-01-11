@@ -1,34 +1,33 @@
-#include "FreeRTOS.h"
-#include "task.h"
+// #include "FreeRTOS.h"
+// #include "task.h"
 
-void vTask1(void *pvParameters);
-void vTask2(void *pvParameters);
+// void vTaskA(void *pvParameters);
+// void vTaskB(void *pvParameters);
 
-int main(void)
-{
-    xTaskCreate(&vTask1, "Task 1", 1024, NULL, 1, NULL);
-    xTaskCreate(&vTask2, "Task 2", 1024, NULL, 1, NULL);
+// int main(void)
+// {
+//     xTaskCreate(&vTaskA, "Task A", 1024, NULL, 1, NULL);
+//     xTaskCreate(&vTaskB, "Task B", 1024, NULL, 1, NULL);
 
-    vTaskStartScheduler();
+//     vTaskStartScheduler();
 
-    return 0;
-}
+//     return 0;
+// }
 
-void vTask1(void *pvParameters)
-{
-    for (;;)
-    {
-        printf("Task 1\r\n");
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }
-}
+// void vTaskA(void *pvParameters)
+// {
+//     for (;;)
+//     {
+//         printf("Task A - X\r\n");
+//         vTaskDelay(pdMS_TO_TICKS(1000));
+//     }
+// }
 
-void vTask2(void *pvParameters)
-{
-    for (;;)
-    {
-        printf("Task 2\r\n");
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }
-}
-
+// void vTaskB(void *pvParameters)
+// {
+//     for (;;)
+//     {
+//         printf("Task B - X\r\n");
+//         vTaskDelay(pdMS_TO_TICKS(1000));
+//     }
+// }
