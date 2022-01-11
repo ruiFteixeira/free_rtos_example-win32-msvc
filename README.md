@@ -22,3 +22,7 @@ C:\Users\Utilizador\repos
 # VS Code shortcuts:
 
 build project -> Ctrl+shift+b
+
+# SDK version:
+
+10.0.19041.0
