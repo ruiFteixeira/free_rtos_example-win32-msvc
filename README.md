@@ -1,7 +1,7 @@
 # Base example for SIAA classes:
 1º build project
 
-2º compile with cls.exe
+2º compile with cl.exe
 
 source: https://code.visualstudio.com/docs/cpp/config-msvc
 
